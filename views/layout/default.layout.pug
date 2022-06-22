@@ -1,0 +1,12 @@
+doctype html
+html(lang="ko")
+	head
+		meta(charset="utf-8")
+		title CRUD 연습
+		include ../include/head.inc.pug
+	body
+		include ../include/header.inc.pug
+		.container(style="padding-top: 80px;")
+			block title
+			block content
+		script(src=`/js/${js}.js`)
